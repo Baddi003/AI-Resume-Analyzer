@@ -8,7 +8,7 @@ import aiRoutes from "./routes/aiRoutes.js";
 
 dotenv.config();
 
-const app = express();h 
+const app = express();
 app.use(cors({
   origin: "https://ai-resume-analyzer-eight-beryl.vercel.app",
   credentials: true
