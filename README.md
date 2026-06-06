@@ -1,16 +1,74 @@
-# React + Vite
+# AI Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+AI Resume Analyzer is a MERN stack application that analyzes resumes using AI and compares them with job descriptions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* User Authentication (Login/Register)
+* Resume Upload (PDF)
+* AI Resume Analysis
+* Match Score Generation
+* Missing Skills Detection
+* Resume Improvement Suggestions
+* AI Interview Questions
+* Analysis History
+* Dark/Light Theme
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* CSS
+* Axios
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### AI API
+
+* OpenRouter API
+
+## Installation
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd frontend/server
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create `.env` inside `frontend/server`
+
+```env
+PORT=5000
+
+MONGO_URI=your_mongodb_url
+
+JWT_SECRET=mysecretkey
+
+OPENROUTER_API_KEY=your_api_key
+```
+
+## GitHub Repository
+
+https://github.com/Baddi003/AI-Resume-Analyzer
